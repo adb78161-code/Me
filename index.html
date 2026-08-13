@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Interactive House - Reference Layout</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="ui">
+  <h2>Interactive House</h2>
+  <button onclick="frontDoor()">🚪 Front Door</button>
+  <button onclick="bedDoor()">🚪 Bedroom Door</button>
+  <button onclick="windowOpen()">🪟 Windows</button>
+  <button onclick="lightLiving()">💡 Living Light</button>
+  <button onclick="lightBed()">💡 Bedroom Light</button>
+  <button onclick="lightKitchen()">💡 Kitchen Light</button>
+  <button onclick="sit()">🛋️ Sit on Sofa</button>
+  <button onclick="lie()">🛏️ Lie on Bed</button>
+  <button onclick="stand()">🚶 Stand</button>
+  <button onclick="resetHouse()">↩ Reset</button>
+  <p>Drag to rotate • Scroll to zoom • Click furniture/doors</p>
+</div>
+<div id="msg"></div>
+
+<script src="https://cdn.jsdelivr.net/npm/three@0.180.0/build/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.180.0/examples/js/controls/OrbitControls.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
